@@ -1,0 +1,9 @@
+Model,Threshold,Accuracy,Precision,Recall,F1,ROC-AUC
+V2 Local A - Dataset 1 (0.5),0.5,0.9706,0.9595,0.6835,0.7984,0.9758
+V2 Local B - Dataset 2 (0.5),0.5,0.91,0.9902,0.8585,0.9197,0.9416
+V2 Federated A - Dataset 1 (0.5),0.5,0.9256,0.5415,0.8182,0.6517,0.9636
+V2 Federated B - Dataset 2 (0.5),0.5,0.9113,0.9938,0.8575,0.9206,0.9421
+V2 Local A - Dataset 1 (calibrated),0.415,0.9698,0.9329,0.6953,0.7968,0.9758
+V2 Local B - Dataset 2 (calibrated),0.355,0.9096,0.9784,0.8684,0.9201,0.9416
+V2 Federated A - Dataset 1 (calibrated),0.87,0.9678,0.9483,0.6576,0.7767,0.9636
+V2 Federated B - Dataset 2 (calibrated),0.395,0.9114,0.9885,0.8622,0.9211,0.9421
