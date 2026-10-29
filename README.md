@@ -1,4 +1,4 @@
-# COMP6002-26S2-DiaPredict — Heterogeneous Federated Learning for Diabetes Prediction
+# DiaPredict — Heterogeneous Federated Learning for Diabetes Prediction
 
 ## Project Overview
 
