@@ -10,6 +10,7 @@ The project explores whether models trained on datasets with different features 
 
 - `data/` — Four diabetes datasets used in the experiments.
 - `notebooks/` — Data exploration, federated learning prototypes and evaluation notebooks.
+- `demo/` — Presentation demo notebook demonstrating federated training and evaluation.
 - `models/` — Saved model checkpoints and experimental results in CSV format.
 - `visualisations/` — Figure-generation script, supporting result CSVs and evaluation figures.
 - `requirements.txt` — Python dependencies.
@@ -57,6 +58,14 @@ The notebooks are numbered in their intended development sequence:
 9. `09_Additional_Datasets_Evaluation.ipynb`
 
 Open the notebooks in Jupyter to inspect or rerun the experiments. The repository also contains saved results, so the evaluation figures can be regenerated without retraining the models.
+
+## Live Demo
+
+The [`DiaPredict_Demo.ipynb`](demo/DiaPredict_Demo.ipynb) notebook provides a shorter walkthrough of the heterogeneous federated learning framework for the final project presentation. It demonstrates a brief federated training run, confirms that the prediction head is shared while client encoders remain separate, and reports evaluation results.
+
+After completing the installation steps above, launch Jupyter from the repository root and open `demo/DiaPredict_Demo.ipynb`. Select the Python environment with the installed dependencies, then use **Kernel → Restart & Run All** to execute the demonstration.
+
+The notebook uses project files from the `data/` and `models/` directories; these must be available at their expected paths for the relevant cells to run. The short demonstration is illustrative and its results should not be confused with the full multi-seed experiments reported below.
 
 ## Experimental Evaluation
 
